@@ -1,0 +1,237 @@
+@font-face{
+    font-family: "a";
+    src: url("../font/iconfont.ttf");
+}
+body{
+    font-size: 15px;
+}
+.header{
+    background: #333333;
+    height: 44px;
+    color: #F2F2F2;
+    font-size: 15px;
+    line-height: 44px;
+}
+.icon{
+    font-family: "a";
+    font-style: normal;
+    color: white;
+}
+.ic1{
+    font-size: 20px;
+}
+.ic2{
+    font-size: 20px;
+}
+.ic3{
+    font-size:20px;
+}
+.ic4{
+    font-size: 30px;
+    color: #000;
+    line-height: 33px;
+}
+
+a{
+    color: white;
+    display: block;
+}
+
+.header-con{
+    max-width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.header2 .son{
+    width: 300%;
+    height: 100%;
+    background: #000;
+    display: none;
+    position: relative;
+    z-index: 999;
+}
+.s1{
+    width: 90%;
+    height: 800px;
+    padding-left: 5%;
+    font-size: 20px;
+}
+.header2 .son a{
+    display: block;
+    color: white;
+    /*padding-top: 5px;*/
+    border-bottom: 1px solid #333333;
+    /*margin: 5px 0;*/
+    /*margin-top: -10px;*/
+}
+.header2 .son a:last-child{
+    border-bottom: 1px solid white;
+}
+.banner{
+    height: 250px;
+    margin-top:30px;
+    position: relative;
+}
+.box{
+    width: 500%;
+
+    height: 100%;
+}
+.list{
+    width: 20%;
+    height: 100%;
+    display: block;
+    color: #000;
+    float: left;
+}
+.list:nth-child(1){
+    background: url(../image/home_hero_ssn_small.png) no-repeat center bottom;
+    background-size: auto 200px;
+}
+.list:nth-child(2){
+    background: url(../image/home_hero_cny_small.jpg) no-repeat center;
+    background-size: auto 200px;
+    background-position-y: 100px;
+}
+.list:nth-child(3){
+    background: url(../image/home_hero_evergreen_ipad_small.jpg) no-repeat center bottom;
+    background-position-y: 100px;
+    background-size: auto 200px;
+}
+.list:nth-child(4){
+    background: url(../image/hero_music_movies_books_xsmall.png) no-repeat center bottom;
+    background-size: auto 200px;
+    background-position-y: 100px;
+}
+.list:nth-child(5){
+    background: url(../image/home_hero_ssn_small.png) no-repeat center bottom;
+    background-size: auto 200px;
+}
+.text{
+    text-align: center;
+}
+.text h1{
+    font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.text h2{
+    font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+.text span{
+    font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+}
+.banner ul{
+    width: 100px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    margin-left: -50px;
+}
+.banner li{
+    margin: 0  5px;
+    display: block;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    float: left;
+    background: #888;
+}
+.banner li:nth-child(1){
+    border: 1px solid blue;
+    background: none;
+}
+
+.imagelist div[class*=col]{
+    height: 200px;
+    margin-top: 50px;
+    border: 1px solid white;
+}
+.imagelist .row>div:nth-child(1){background: url(../image/1.jpg) no-repeat center;}
+.imagelist .row>div:nth-child(2){background: url(../image/2.jpg) no-repeat center;}
+.imagelist .row>div:nth-child(3){background: url(../image/6.jpg) no-repeat center;}
+.imagelist .row>div:nth-child(4){background: url(../image/7.jpg) no-repeat center;}
+.footer{
+    background: #F2F2F2;
+}
+.listview{
+    width: 1024px;
+    padding-top: 20px;
+}
+.none{
+    height: 0;
+}
+.listview .title{
+    height: 20px;
+    font-size: 14px;
+    color: #333;
+    margin: 0 5px;
+}
+.listview a{
+    color: #666;
+    font-size: 12px;
+    height: 20px;
+    background: #F2F2F2;
+}
+.listview a:hover{
+    text-decoration: underline;
+}
+.listview .list-list{
+    display: none;
+}
+@media screen and (min-width: 730px){
+    .list:nth-child(1){
+        background: url(../image/home_hero_ssn_medium.png) no-repeat center bottom;
+        background-size: auto 600px;
+    }
+    .list:nth-child(2){
+        background: url(../image/home_hero_cny_medium.jpg) no-repeat center bottom;
+        background-size: auto 600px;
+        background-position-y: 100px;
+    }
+    .list:nth-child(3){
+        background: url(../image/home_hero_evergreen_ipad_medium.jpg) no-repeat center bottom;
+        background-size: auto 600px;
+        background-position-y: 280px;
+    }
+    .list:nth-child(4){
+        background: url(../image/hero_music_movies_books_large.png) no-repeat center bottom;
+        background-size: auto 400px;
+        background-position-y: 150px;
+    }
+    .list:nth-child(5){
+        background: url(../image/home_hero_ssn_medium.png) no-repeat center bottom;
+        background-size: auto 600px;
+    }
+    .banner{
+        height: 600px;
+    }
+    .text h1{
+        font-size: 50px;
+        margin-top: 10px;
+    }
+    .text h2{
+        margin-top: 10px;
+        font-size: 28px;
+    }
+    .text span{
+        display: block;
+        font-size: 16px;
+        margin-top: 20px;
+        color: #4DA4DC;
+    }
+    .listview .list-list{
+        display: block;
+    }
+    .none{
+        height: 20px;
+    }
+
+}
